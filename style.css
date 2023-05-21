@@ -1,0 +1,269 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+
+    
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+body{
+    background: url('https://cdn.pixabay.com/photo/2016/05/22/19/15/background-1409028_1280.png') no-repeat center center/cover;
+    height: 100%;
+
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    top: 0px;
+
+  
+  
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+   
+    font-weight: bold;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: rgb(6, 4, 4);
+    display: block;
+    padding: 13px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: rgb(205, 167, 167);
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    color:rgb(17, 9, 9);
+    text-align: center;
+    font-size: 90px;
+    
+}
+#home p{
+    color:rgb(68, 52, 52);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:normal;
+    font-family: 'Bree Serif', serif;
+}
+.INTRO{
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    font-size: 80px;
+    margin-left: 340px;
+    text-align: left;    
+} 
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 259px;
+    margin: 3px 6px;
+    border-radius: 190px;
+}
+#logo a:hover{
+    height: 300px;
+}
+
+.intro{
+    font-size: 28px;
+}
+/* footer section */
+.center{
+    color: white;
+    font-size: 20px;
+    margin-left: 480px;
+    color: rgb(255, 247, 247);
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+ }
+
+/* hobbies section */
+.hobbies{
+    align-items: center;
+    justify-content: center;
+}
+.hob h1{
+    margin-top: 60px;
+    color:rgb(17, 9, 9);
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+.hobe ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.hobe ul li{ 
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.hobe ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 13px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+/* education section */
+.Edu h1{
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-size: 50px;
+    margin-left: 400px;
+   
+}
+.container{
+    color: rgb(15, 16, 17);
+    background-color: #c8d3d9;
+    border: 2px solid;
+    font-size: 25px;
+}
+ .group{ 
+ height: 300px;
+   
+}
+.table{
+    width: 1300px;
+}
+.tab{
+    font-weight: bold;
+    font-size: 30px;
+}
+ 
+/* contact section */
+.con h1{
+    margin-top: 60px;
+    color:rgb(17, 9, 9);
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    
+}
+
+.con p{
+    margin-top: 6px;
+    color:rgb(17, 9, 9);
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+.ri{
+    
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.right img{
+    height: 50px;
+    border-radius: 60px;
+}
+button{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    justify-content: center;
+    border-radius: 10px;
+  
+   
+
+}
+.container1{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: rgb(54, 49, 49);
+    margin: 106px 80px;
+    padding: 89px;
+    width: 33%;
+    backdrop-filter: (4px);
+   
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 15px;
+    color: black;
+    background-color:rgb(115, 109, 109);
+    /* border: 2px solid black; */
+    margin: 3px auto;
+    font-size: 20px;
+
+}
+
+.containe1r h1{
+    text-align: right;
+}
+.container1 button{
+    display: block;
+    width: 90px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 9px;
+}
+.container1 button:hover{
+    background-color: rgb(10, 246, 57);
+}

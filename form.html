@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sfoorti More</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <title>Form Validation Example</title>
+  <script>
+    function validateForm() {
+      var name = document.forms["myForm"]["name"].value;
+      var email = document.forms["myForm"]["email"].value;
+      var message = document.forms["myForm"]["message"].value;
+
+      if (name === "" || email === "" || message === "") {
+        alert("Please enter all fields");
+        return false;
+      } else {
+        alert("Message sent successfully!");
+        document.forms["myForm"].reset();
+      }
+    }
+  </script>
+</head>
+<body>
+    
+    <nav id="navbar">
+        <ul class="nav">
+            <li class="item"><a href="soc.html">HOME</a></li>
+            <li class="item"><a href="hobbies.html">HOBBIES</a></li>
+            <li class="item"><a href="education.html">EDUCATION</a></li>
+            <li class="item"><a href="form.html">FORM</a></li>
+            <li class="item"><a href="contact.html">CONTACT ME</a></li>   
+    </nav>
+  <form name="myForm" onsubmit="return validateForm()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

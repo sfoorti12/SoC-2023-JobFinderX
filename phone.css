@@ -1,0 +1,124 @@
+/* Navigation */
+#navbar {
+    display: flex;
+    
+     
+}
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#navbar ul li{
+    flex-direction: column;
+    font-size: 12px;
+   
+}
+
+#navbar ul li a{
+    font-size: 20px;
+    padding: 0px 15px;
+    padding-bottom: 8px;
+    flex-wrap: wrap;
+}
+#home{
+    margin-left: 0px;
+    height: 370px; 
+    padding: 3px 28px;
+}
+#home p{
+    font-size: 13px;
+}
+.INTRO{
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    flex-direction: column;
+}
+.heading{
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+    display: inline;
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+   font-size: 12px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 50px;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Edu h1{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 40px;
+   
+}
+.container{
+    color: rgb(15, 16, 17);
+    background-color: #c8d3d9;
+    border: 2px solid;
+    font-size: 13px;
+}
+.group{ 
+    height: 0px;
+      
+   }
+   .table{
+       width: 250px;
+   }
+   .tab{
+       font-weight: bold;
+       font-size: 15px;
+   }
+   .container1{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: rgb(54, 49, 49);
+    margin: 106px 10px;
+    padding: 69px;
+    width: 50%;
+
+   
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 170px;
+    padding: 10px;
+    color: black;
+    background-color:rgb(115, 109, 109);
+    /* border: 2px solid black; */
+    margin: 13px 0px;
+    
+    font-size: 20px;
+
+}
+
+
+.container1 button{
+    display: block;
+    width: 90px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 9px;
+}
+
+
